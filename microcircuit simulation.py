@@ -161,7 +161,7 @@ for i, g in enumerate(g_list):
 
         C_i_4 = Synapses(L_5_i, L_5_i, on_pre='v_1-=1.3*mV', delay=1.7 * ms)
         C_i_4.connect(p=0.316)
-1
+
         ''' external input '''
 
         P_1 = PoissonGroup(2000, freq * Hz)
